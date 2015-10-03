@@ -11,7 +11,15 @@
 			"file": "03_emrick.html",
 			"settings":
 			{
-				"buffer_size": 67,
+				"buffer_size": 6651,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Evilmagistrate/Dropbox/SMFA/Intro to Web Design/Homework/Script C+V/Figure.html",
+			"settings":
+			{
+				"buffer_size": 96,
 				"line_ending": "Unix"
 			}
 		}
@@ -40,6 +48,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Evilmagistrate/Dropbox/SMFA/Intro to Web Design/Homework/Script C+V/Figure.html",
+		"/Users/Evilmagistrate/cmp2035/02_assignment/02_emrick.html"
 	],
 	"find":
 	{
@@ -91,14 +101,40 @@
 					"file": "03_emrick.html",
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 6651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
+								6651,
+								6651
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1323.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Evilmagistrate/Dropbox/SMFA/Intro to Web Design/Homework/Script C+V/Figure.html",
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
 								0
 							]
 						],
@@ -171,6 +207,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 293.0,
 	"status_bar_visible": true
 }
