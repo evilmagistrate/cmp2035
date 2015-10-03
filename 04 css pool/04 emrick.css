@@ -1,0 +1,91 @@
+ body {
+
+ 	font-family: georgia;
+ 	font-size: 16;
+ }
+
+ p {
+ 	font-size:18;
+ 	text-align: justify;
+ }
+
+ h1 {
+
+ 	font-family: impact;
+ 	font-size: 60;
+ 	color: #000066;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 10em
+ }
+
+ h2 {
+ 	font-family: impact;
+ 	font-size: 42;
+ 	color: #4C87A6;
+ }
+
+ h3 {
+ 	font-family: impact;
+ 	font-size: 34;
+ 	color: #800000;
+ }
+
+ h4 {
+ 	font-family: impact;
+ 	font-size: 20;
+ 	color: #98B6D4
+
+ }
+
+ input {
+
+ 	color: #800000;
+ }
+
+ Fieldset{
+ 	background-color: #efefef;
+ }
+
+ Legend {
+ 	border:1px dashed #000066;
+ 	font-size: 20;
+ 	color:#4C87A6;
+ 	font-weight: bold;
+ 	background-color: #E0E0EB
+ 	;
+ }
+
+ table {
+ 	background-color: #efefef;
+ }
+
+ th {
+ 	font-family: impact;
+ 	font-size: 20;
+ 	color: #000066;
+ 	background-color: #E0E0EB
+
+ }
+
+ li {
+ 	font-weight: bold;
+ }
+
+ i {
+ 	font-weight: bold;
+ }
+
+ hr {
+ 	border:1px double;
+ }
+
+ p a {
+ 	color: #4C87A6;
+ 	font-style: oblique;
+ }
+
+ li a {
+ 	color: #4C87A6;
+ 	font-style: oblique;
+ }
