@@ -17,7 +17,7 @@
  	background-color: #000033;
  	margin-top: 1em;
  	margin-bottom: 1em;
- 	font-variant:small-caps;
+ 	font-variant: small-caps;
  	outline-style: dotted;
  	outline-width: 20px;
  	outline-color: #FFFF00;
@@ -29,7 +29,7 @@
  	font-size: 42;
  	color: #FFFF00;
  	background-color: black;
- 	font-variant:small-caps;
+ 	font-variant: small-caps;
  	outline: yellow dotted 10px;
  }
 
@@ -53,12 +53,12 @@
  	color: #800000;
  }
 
-fieldset {
+ fieldset {
  	background-color: #FFCC66;
  }
 
-legend {
- 	border:1px dashed black;
+ legend {
+ 	border: 1px dashed black;
  	font-size: 20;
  	color: black;
  	font-weight: bold;
@@ -74,7 +74,6 @@ legend {
  	font-size: 20;
  	color: white;
  	background-color: black;
-
  }
 
  li {
@@ -104,7 +103,6 @@ legend {
  ul {
  	list-style-type: square;
  	background-color: orange;
- 	list-style: square inside ("tinybee.gif");
  }
 
  ol {
