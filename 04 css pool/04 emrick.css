@@ -1,40 +1,50 @@
  body {
 
- 	font-family: georgia;
+ 	font-family: lucida console;
  	font-size: 16;
+ 	background-color: #FFFFA3;
  }
 
  p {
- 	font-size:18;
- 	text-align: justify;
+ 	font-size:16;
  }
 
  h1 {
 
- 	font-family: impact;
- 	font-size: 60;
- 	color: #000066;
- 	margin-left: auto;
- 	margin-right: auto;
- 	width: 10em
+ 	font-family: comic sans ms;
+ 	font-size: 100;
+ 	color: #FFFF00;
+ 	background-color: #000033;
+ 	margin-top: 1em;
+ 	margin-bottom: 1em;
+ 	font-variant:small-caps;
+ 	outline-style: dotted;
+ 	outline-width: 20px;
+ 	outline-color: #FFFF00;
+
  }
 
  h2 {
- 	font-family: impact;
+ 	font-family: tahoma;
  	font-size: 42;
- 	color: #4C87A6;
+ 	color: #FFFF00;
+ 	background-color: black;
+ 	font-variant:small-caps;
+ 	outline: yellow dotted 10px;
  }
 
  h3 {
- 	font-family: impact;
+ 	font-family: comic sans ms;
  	font-size: 34;
- 	color: #800000;
+ 	color: #FFFF00;
+ 	background-color: black;
  }
 
  h4 {
- 	font-family: impact;
+ 	font-family: comic sans ms;
  	font-size: 20;
- 	color: #98B6D4
+ 	color: #FFFF00;
+ 	background-color: black;
 
  }
 
@@ -43,28 +53,27 @@
  	color: #800000;
  }
 
- Fieldset{
- 	background-color: #efefef;
+ Fieldset {
+ 	background-color: #FFCC66;
  }
 
  Legend {
- 	border:1px dashed #000066;
+ 	border:1px dashed black;
  	font-size: 20;
- 	color:#4C87A6;
+ 	color: black;
  	font-weight: bold;
- 	background-color: #E0E0EB
- 	;
+ 	background-color: yellow;
  }
 
  table {
- 	background-color: #efefef;
+ 	background-color: #FFCC66;
  }
 
  th {
- 	font-family: impact;
+ 	font-family: comic sans ms;
  	font-size: 20;
- 	color: #000066;
- 	background-color: #E0E0EB
+ 	color: white;
+ 	background-color: black;
 
  }
 
@@ -73,19 +82,36 @@
  }
 
  i {
+ 	color: red;
  	font-weight: bold;
  }
 
  hr {
- 	border:1px double;
+ 	border: 6px dashed;
+ 	color: orange;
  }
 
  p a {
- 	color: #4C87A6;
- 	font-style: oblique;
+ 	color: #FF9900;
  }
 
  li a {
- 	color: #4C87A6;
- 	font-style: oblique;
+ 	color: red;
+ 	font-size: 16;
+ 	font-weight: bolder;
  }
+
+ ul {
+ 	list-style-type: square;
+ 	background-color: orange;
+ 	list-style: square inside ("tinybee.gif");
+ }
+
+ ol {
+ 	list-style-type: lower-greek;
+ }
+
+ a {
+ 	color: red;
+ }
+ 
