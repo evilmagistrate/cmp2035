@@ -53,11 +53,11 @@
  	color: #800000;
  }
 
- Fieldset {
+fieldset {
  	background-color: #FFCC66;
  }
 
- Legend {
+legend {
  	border:1px dashed black;
  	font-size: 20;
  	color: black;
