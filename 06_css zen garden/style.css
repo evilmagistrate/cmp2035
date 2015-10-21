@@ -1,0 +1,62 @@
+html, body {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16;
+	line-height: 1.6em;
+}
+
+/* intro */
+
+.intro header, .summary {
+	background-color: #0040C8;
+	padding: 50px 100px 50px 300px;
+	color: #fff;
+}
+
+h1 {
+	font-size: 300%;
+    text-shadow: 4px 4px #002065;
+    text-transform: uppercase;
+}
+
+h2 {
+	font-size: 200%;
+	text-transform: uppercase;
+}
+
+div.summary {
+	padding: 10px 30px 10px 30px;
+}
+
+.preamble {
+	background-color: #E8A800;
+	padding: 50px 100px 50px 100px;
+	color: #fff;
+}
+
+/* main supporting */
+
+.explanation {
+	background-color: #C86000;
+	padding: 50px 100px 50px 100px;
+	color: #fff;
+}
+
+.participation {
+	background-color: #A82000;
+	padding: 50px 100px 50px 100px;
+	color: #fff;
+}
+
+.benefits {
+	background-color: #900000;
+	padding: 50px 100px 50px 100px;
+	color: #fff;
+}
+
+.requirements {
+	background-color: #404040;
+	padding: 50px 100px 50px 100px;
+	color: #fff;
+}
+
+/* sidebar */
