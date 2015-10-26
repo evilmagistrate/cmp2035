@@ -1,15 +1,15 @@
-html, body {
+html, body, a {
 	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 16;
+	font-size: 16px;
 	line-height: 1.6em;
+	color: #fff;
 }
 
 /* intro */
 
 .intro header, .summary {
 	background-color: #0040C8;
-	padding: 50px 100px 50px 300px;
-	color: #fff;
+	padding: 50px 100px 50px 100px;
 }
 
 h1 {
@@ -20,11 +20,35 @@ h1 {
 
 h2 {
 	font-size: 200%;
-	text-transform: uppercase;
 }
 
-div.summary {
-	padding: 10px 30px 10px 30px;
+h3 {
+	font-size:150%;
+}
+
+.summary {
+	padding: 10px 30px 150px 50px;
+}
+
+div.summary a {
+	background-color: #fff;
+	border: solid 3px #002065;
+	border-radius: 5px;
+	padding: 5px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin: 5px;
+	text-decoration: none;
+
+}
+
+div.summary a:hover {
+	border: double;
+}
+
+div.summary a:visited {
+	background-color: #fff;
+	color: #A82000;
 }
 
 .preamble {
@@ -60,3 +84,14 @@ div.summary {
 }
 
 /* sidebar */
+
+.sidebar {
+	float:right;
+	height: 100%;
+	background-color: #404040;
+	border: groove 10px #B3B3B3;
+	border-radius: 20px;
+	padding: 20px;
+	line-height: 2em;
+	color: #eee;
+}
