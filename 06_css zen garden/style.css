@@ -1,8 +1,11 @@
 html, body, a {
 	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 16px;
 	line-height: 1.6em;
 	color: #fff;
+}
+
+p {
+	padding-right: 25%;
 }
 
 /* intro */
@@ -10,6 +13,7 @@ html, body, a {
 .intro header, .summary {
 	background-color: #0040C8;
 	padding: 50px 100px 50px 100px;
+	padding-right: 20%;
 }
 
 h1 {
@@ -86,12 +90,36 @@ div.summary a:visited {
 /* sidebar */
 
 .sidebar {
-	float:right;
-	height: 100%;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	height: 101%;
+	max-width: 15%;
+	z-index: 10;
+	float: right;
 	background-color: #404040;
 	border: groove 10px #B3B3B3;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 20px 80px 20px 20px;
 	line-height: 2em;
 	color: #eee;
+}
+
+ul a{
+	font-weight: bolder;
+	text-transform: uppercase;
+	line-height: 2.6em;
+	text-decoration: none;
+}
+
+ul a:hover {
+	color: #A82000;
+}
+
+ul a:visited {
+	color: #E8A800;
+}
+
+.designer-name {
+
 }
