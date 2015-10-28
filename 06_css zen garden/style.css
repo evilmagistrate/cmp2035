@@ -12,26 +12,40 @@ p {
 
 .intro header, .summary {
 	background-color: #0040C8;
-	padding: 50px 100px 50px 100px;
-	padding-right: 20%;
-}
+	padding: 100px 100px 50px 175px;
+	}
 
 h1 {
-	font-size: 300%;
-    text-shadow: 4px 4px #002065;
+	font-size: 400%;
+    text-shadow: 5px 5px #002065;
     text-transform: uppercase;
+    letter-spacing: .2em;
+    border: 40px solid transparent;
+/*    padding: 30px 10px 30px 30px;
+    -webkit-border-image: url("images/eyes2.png") 50%;
+    -o-border-image: url("images/eyes2.png") 50%;
+    border-image: url("images/eyes2.png") 50%;*/
+	
+	padding: 20px 10px 20px 30px;
+    -webkit-border-image: url("images/eyes.png") 40% repeat; /* Safari 3.1-5 */
+    -o-border-image: url("images/eyes.png") 40% repeat; /* Opera 11-12.1 */
+    border-image: url("images/eyes.png") 40% repeat;
+
+    max-width: 45%;
 }
 
 h2 {
 	font-size: 200%;
+	text-indent: 180px;
 }
 
 h3 {
-	font-size:150%;
+	font-size: 150%;
 }
 
 .summary {
-	padding: 10px 30px 150px 50px;
+	padding: 10px 650px 150px 150px;
+	background: #0040C8 url("images/Flower.gif") repeat-x left bottom;
 }
 
 div.summary a {
@@ -56,34 +70,39 @@ div.summary a:visited {
 }
 
 .preamble {
+	background: #0040C8 url("images/texture3.png") repeat;
 	background-color: #E8A800;
-	padding: 50px 100px 50px 100px;
+	padding: 50px 100px 50px 150px;
 	color: #fff;
 }
 
 /* main supporting */
 
 .explanation {
+	background: #0040C8 url("images/texture3.png") repeat;
 	background-color: #C86000;
-	padding: 50px 100px 50px 100px;
+	padding: 50px 100px 50px 150px;
 	color: #fff;
 }
 
 .participation {
+	background: #0040C8 url("images/texture2.png") repeat;
 	background-color: #A82000;
-	padding: 50px 100px 50px 100px;
+	padding: 50px 100px 50px 150px;
 	color: #fff;
 }
 
 .benefits {
+	background: #0040C8 url("images/texture2.png") repeat;
 	background-color: #900000;
-	padding: 50px 100px 50px 100px;
+	padding: 50px 100px 50px 150px;
 	color: #fff;
 }
 
 .requirements {
+	background: #0040C8 url("images/texture2.png") repeat;
 	background-color: #404040;
-	padding: 50px 100px 50px 100px;
+	padding: 50px 100px 200px 150px;
 	color: #fff;
 }
 
@@ -91,29 +110,33 @@ div.summary a:visited {
 
 .sidebar {
 	position: fixed;
-	top: 5px;
-	right: 5px;
+	top: 100px;
+	right: 30px;
 	height: 101%;
 	max-width: 15%;
 	z-index: 10;
 	float: right;
-	background-color: #404040;
+	background-color: #000;
 	border: groove 10px #B3B3B3;
 	border-radius: 20px;
 	padding: 20px 80px 20px 20px;
-	line-height: 2em;
+	line-height: 1.8em;
 	color: #eee;
 }
 
-ul a{
+ul {
+	list-style-image: url("images/Triangle.png");
+}
+
+ul a {
 	font-weight: bolder;
 	text-transform: uppercase;
-	line-height: 2.6em;
 	text-decoration: none;
+	line-height: 2.8em;
 }
 
 ul a:hover {
-	color: #A82000;
+	text-decoration: underline;
 }
 
 ul a:visited {
@@ -121,5 +144,9 @@ ul a:visited {
 }
 
 .designer-name {
+	white-space: pre;
+}
 
+li {
+	margin: 8px;
 }
