@@ -12,6 +12,19 @@ p {
 	padding-right: 25%;
 }
 
+a {
+	font-weight: bolder;
+	line-height: 2.8em;
+}
+
+a:hover {
+	color: #000;
+}
+
+a:visited {
+	color: #E8A800;
+}
+
 /* intro */
 
 .intro header, .summary {
@@ -26,7 +39,7 @@ h1 {
 	font-size: 300%;
     text-shadow: 5px 5px #002065;
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: .4em;
     border: 40px solid transparent;
     line-height: 2em;
     text-align: center;
@@ -39,18 +52,20 @@ h1 {
 /*    -webkit-border-image: url("images/eyes.png") 40% repeat;  Safari 3.1-5 
     -o-border-image: url("images/eyes.png") 40% repeat; /* Opera 11-12.1 */
     border-image: url("images/eyes.png") 34% repeat;
+    border-width: 20%;
 	max-width: 45%;
-	padding-left: 15%;
+	padding-left: 8%;
 	padding-right: 10%;
 }
 
 h2 {
 	font-family: "Press Start 2P", Lucida, Monaco, monospace;
 	font-size: 200%;
-	padding-left: 14%;
+	padding-left: 10%;
 	word-spacing: 10px;
 	letter-spacing: .1em;
-	margin-bottom: 4%;
+	max-width: 60%;
+	line-height: 2em;
 }
 
 h3 {
@@ -58,7 +73,6 @@ h3 {
 	font-size: 125%;
 	background-color: #000;
 	padding: 15px 0px 10px 25px;
-	text-indent: 5px;
 	border-radius: 20px;
 }
 
@@ -98,19 +112,15 @@ div.summary a:visited {
 	padding-left: 8%;
 	color: #fff;
 	margin-left: -50px;
-
-	background: #E8A800 url("images/orange-border.png") repeat-x left bottom;
-
 	background: #E8A800 url("images/texture3.png") repeat;
-
 }
 
-/*Don't yet understand the way to effectively utilize ::before, will return to this later */
+/*Don't yet understand the way to effectively utilize ::before, will return to this later 
 
 
 .preamble::before {
-	background: url("images/texture3.png") repeat;
-}
+	background: url("images/orange-border.png") repeat-x left bottom;
+}*/
 
 /* main supporting */
 
