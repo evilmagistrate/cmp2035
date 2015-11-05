@@ -9,7 +9,7 @@ html, body, a {
 }
 
 p {
-	padding-right: 25%;
+	max-width: 65%;
 }
 
 a {
@@ -112,54 +112,47 @@ div.summary a:visited {
 	padding-left: 8%;
 	color: #fff;
 	margin-left: -50px;
-	background: #E8A800 url("images/texture3.png") repeat;
+	background: url("images/orange-border.png") repeat-x left bottom,
+				#E8A800 url("images/texture3.png") repeat;
 }
 
-/*Don't yet understand the way to effectively utilize ::before, will return to this later 
-
-
-.preamble::before {
-	background: url("images/orange-border.png") repeat-x left bottom;
-}*/
 
 /* main supporting */
 
 .explanation {
-	background: #0040C8 url("images/texture3.png") repeat;
-	background-color: #C86000;
 	padding-top: 3%;
 	padding-right: 15%;
 	padding-bottom: 3%;
 	padding-left: 8%;
 	color: #fff;
 	margin-left: -50px;
+	background: url("images/red-border.png") repeat-x left bottom,
+				#C86000 url("images/texture3.png") repeat;
 }
 
 .participation {
-	background: #0040C8 url("images/texture2.png") repeat;
-	background-color: #A82000;
 	padding-top: 3%;
 	padding-right: 15%;
 	padding-bottom: 3%;
 	padding-left: 8%;
 	color: #fff;
 	margin-left: -50px;
+	background: url("images/darkred-border.png") repeat-x left bottom,
+				#A82000 url("images/texture2.png") repeat;
 }
 
 .benefits {
-	background: #0040C8 url("images/texture2.png") repeat;
-	background-color: #900000;
 	padding-top: 3%;
 	padding-right: 15%;
 	padding-bottom: 3%;
 	padding-left: 8%;
 	color: #fff;
 	margin-left: -50px;
+	background: url("images/grey-border.png") repeat-x left bottom,
+				#900000 url("images/texture2.png") repeat;
 }
 
 .requirements {
-	background: #0040C8 url("images/texture2.png") repeat;
-	background-color: #404040;
 	padding-top: 3%;
 	padding-right: 15%;
 	padding-bottom: 6%;
@@ -167,6 +160,7 @@ div.summary a:visited {
 	color: #fff;
 	margin-bottom: -50px;
 	margin-left: -50px;
+	background: #404040 url("images/texture2.png") repeat;
 }
 
 /* sidebar */
