@@ -76,10 +76,14 @@ h3 {
 		margin-left: -50px;
 }
 
+.summary p {
+	max-width: 35%;
+}
+
 .summary {
-	padding: 10px 650px 150px 150px;
+	padding: 10px 650px 85px 150px;
 	background: #0040C8 url("images/Flower.gif") repeat-x left bottom;
-	line-height: 3em;
+	line-height: 2em;
 	padding-right: 15%;
 	padding-left: 8%;
 }
@@ -88,10 +92,10 @@ div.summary a {
 	background-color: #fff;
 	border: solid 3px #002065;
 	border-radius: 5px;
-	padding: 5px;
 	text-transform: uppercase;
 	font-weight: bolder;
 	margin: 10px;
+	padding: 5px 10px 5px 10px;
 	text-decoration: none;
 }
 
@@ -104,6 +108,14 @@ div.summary a:visited {
 	color: #A82000;
 }
 
+.summary:after {
+	content: url("images/Mammoth.gif") top;
+	float: right;
+	position: relative;
+	bottom: 130px;
+	right: 60px;
+}
+
 .preamble {
 	background-color: #E8A800;
 	padding-top: 3%;
@@ -112,7 +124,7 @@ div.summary a:visited {
 	padding-left: 8%;
 	color: #fff;
 	margin-left: -50px;
-	background: url("images/orange-border.png") repeat-x left bottom,
+	background:	url("images/orange-border.png") repeat-x left bottom,
 				#E8A800 url("images/texture3.png") repeat;
 }
 
@@ -219,7 +231,7 @@ footer {
 	word-spacing: 20px;
 }
 
-footer a{
+footer a {
 	text-decoration: none;
 	text-align: right;
 }
@@ -231,3 +243,4 @@ footer a:hover {
 footer a:visited {
 	color: #E8A800;
 }
+
