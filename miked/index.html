@@ -4,11 +4,11 @@
 		<title>Mike DeBenedictis | Boston-based singer-songwriter</title>
 		<meta name="description"
 		content="Official website of Boston-based singer-songwriter Mike DeBenedictis" />
-		<meta http-equiv="author"
-		content="Ralph Emrick" />
+		<meta http-equiv="author" content="Ralph Emrick" />
 		<link rel="icon" type="image/png" sizes="32x32" href="images/mike-icon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="96x96" href="images/mike-icon-96x96.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="images/mike-icon-16x16.png" />
+		<link href="style.css" type="text/css" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -29,74 +29,76 @@
 			</nav>
 		</header>
 		<!-- Spotlight is where a video or image is featured on the Shows page -->
-		<div id="spotlight" class="large">
-			<iframe width="460" height="345" src="https://www.youtube.com/embed/uj5iw3xnpVI"
-			frameborder="0" allowfullscreen>Mike DeBenedictis playing &ldquo;In Philadelphia&rdquo;</iframe>
-		</div>
+		<div class="main-content">
+			<div id="spotlight">
+				<iframe  class="large" poster="images/poster-lights.png" src="https://www.youtube.com/embed/uj5iw3xnpVI"
+				frameborder="0" allowfullscreen>Mike DeBenedictis playing &ldquo;In Philadelphia&rdquo;</iframe>
+			</div>
 
-		<!-- Shows is the section where upcoming shows are listed -->
-		<div id="shows" class="upcoming-shows">
-			<img src="images/shows.svg"
-			alt="shows"
-			class="img-header" />
+			<!-- Shows is the section where upcoming shows are listed -->
+			<div id="shows" class="upcoming-shows">
+				<img src="images/shows.svg"
+				alt="shows"
+				class="img-header" />
 
-			<table class="show-listings">
-	<!-- Template for show listing format is as follows
-				<tr>
-					<td class="month">fthree character month abbreviation</td>
-					<td class="venue">
-						<a href="URL of club, if external link available">Venue Title</a>
+				<table class="show-listings">
+		<!-- Template for show listing format is as follows
+					<tr>
+						<td class="month">fthree character month abbreviation</td>
+						<td class="venue">
+							<a href="URL of club, if external link available">Venue Title</a>
+							</td>
+						<td class="location">City, State</td>
+					</tr>
+					<tr>
+						<td class="date">Numeric date<sup>correct suffix (eg: st, rd, th)</sup></td>
+						<td class="supporting">Supporting acts, etc... if no available info, leave empty</td>
+						<td class="buytickets">Extra Cell for future link to buy tickets, leave empty</td>
+					</tr> 
+
+					Repeat this for each show listing-->
+					
+					<tr>
+						<td class="month">feb</td>
+						<td class="venue"><a href="http://www.midwaycafe.com">The Midway Cafe</a>
 						</td>
-					<td class="location">City, State</td>
-				</tr>
-				<tr>
-					<td class="date">Numeric date<sup>correct suffix (eg: st, rd, th)</sup></td>
-					<td class="supporting">Supporting acts, etc... if no available info, leave empty</td>
-					<td class="buytickets">Extra Cell for future link to buy tickets, leave empty</td>
-				</tr> 
+						<td class="location">Jamaica Plain, MA</td>
+					</tr>
+					<tr>
+						<td class="date">29<sup>th</sup></td>
+						<td class="supporting">with I Am Next, Big Screen Radio</td>
+						<td class="buytickets"></td>
+					</tr>
 
-				Repeat this for each show listing-->
-				
-				<tr>
-					<td class="month">feb</td>
-					<td class="venue"><a href="http://www.midwaycafe.com">The Midway Cafe</a>
-					</td>
-					<td class="location">Jamaica Plain, MA</td>
-				</tr>
-				<tr>
-					<td class="date">29<sup>th</sup></td>
-					<td class="supporting">with I Am Next, Big Screen Radio</td>
-					<td class="buytickets"></td>
-				</tr>
+					<tr>
+						<td class="month">mar</td>
+						<td class="venue">
+							<a href="http://www.eventbrite.com/o/wemf-radio-6836262187">WEMF Radio&rsquo;s Closed Mic</a>
+						</td>
+						<td class="location">Somerville, MA</td>
+					</tr>
+					<tr>
+						<td class="date">15<sup>th</sup></td>
+						<td class="supporting">with Gregg Perry, Love Love, Strangers by Accident</td>
+						<td class="buytickets"></td>
+					</tr>
 
-				<tr>
-					<td class="month">mar</td>
-					<td class="venue">
-						<a href="http://www.eventbrite.com/o/wemf-radio-6836262187">WEMF Radio&rsquo;s Closed Mic</a>
-					</td>
-					<td class="location">Somerville, MA</td>
-				</tr>
-				<tr>
-					<td class="date">15<sup>th</sup></td>
-					<td class="supporting">with Gregg Perry, Love Love, Strangers by Accident</td>
-					<td class="buytickets"></td>
-				</tr>
-
-				<tr>
-					<td class="month">apr</td>
-					<td class="venue">
-						<a href="http://gallery263.com/event/antennae-wedding-mike-debenedictis-david-tanklefsky/">Gallery 263</a>
-					</td>
-					<td class="location">Cambridge, MA</td>
-				</tr>
-				<tr>
-					<td class="date">20<sup>th</sup></td>
-					<td class="supporting">with David Tanklefsky, Antennae Wedding</td>
-					<td class="buytickets"></td>
-				</tr>
-				<!-- 	Place newest show listing entries before the </table> tag -->
-			</table>
-		</div> <!-- /div class "upcoming-shows" -->
+					<tr>
+						<td class="month">apr</td>
+						<td class="venue">
+							<a href="http://gallery263.com/event/antennae-wedding-mike-debenedictis-david-tanklefsky/">Gallery 263</a>
+						</td>
+						<td class="location">Cambridge, MA</td>
+					</tr>
+					<tr>
+						<td class="date">20<sup>th</sup></td>
+						<td class="supporting">with David Tanklefsky, Antennae Wedding</td>
+						<td class="buytickets"></td>
+					</tr>
+					<!-- 	Place newest show listing entries before the </table> tag -->
+				</table>
+			</div> <!-- /div class "upcoming-shows" -->
+		</div> <!-- /div class "main content" -->
 
 		<footer>
 			<a id="footer-contact" href="contact.html">Contact</a>
@@ -115,4 +117,4 @@
 
 	</body>
 
-	</html>
+</html>

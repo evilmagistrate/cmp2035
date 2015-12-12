@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ebd6ba;
+	background: url("images/wood.jpg") 10% 0% no-repeat;
+	background-color: #000000;
+	margin-left: 10%;
+}
+
+nav li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	display: inline;
+	padding: 10 10 10 10;
+}
+
+nav ul {
+	margin-left: 45%;
+}
+
+a.current{
+	color: #e7a773;
+}
+
+div.main-content {
+	margin-left: 10%;
+}
+
+img.img-logo {
+	width: 400px;
+	height: 184px;
+	margin-top: 1%;
+}
+
+img.large {
+	width: 533px;
+	height: 800px;
+}
+
+img.thumb {
+	width: 236px;
+	height: 236px;
+}
+
+img.img-header {
+	width: 130px;
+	height: 26px;
+}
+
+iframe.large {
+	width: 620px;
+	height: 460px;
+}
